@@ -14,7 +14,7 @@ def parse_time(time: str) -> int:
         raise ValueError("Time must be an integer.(In parse_time)")
 
 def main():
-    time, time_range = input("input time: "), input("input judge time: ")
+    time, time_range = input("input time: "), input("input time range: ")
 
     time = parse_time(time)
     time_range = tuple(map(parse_time, time_range.split("-")))
