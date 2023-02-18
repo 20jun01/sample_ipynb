@@ -1,4 +1,3 @@
 jupyter
 pykernel
 pytest
-pytest-ipynb
