@@ -1,4 +1,4 @@
-pip install jupyter
-pip install pykernel
-pip install pytest
-pip install pytest-ipynb
+jupyter
+pykernel
+pytest
+pytest-ipynb
